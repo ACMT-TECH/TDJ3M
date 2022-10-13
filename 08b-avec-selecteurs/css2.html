@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>
+			</title>
+			<style>
+				body {
+					color: red;
+				}
+				
+				div {
+					color: green;
+				}
+				div p {
+					color: blue;
+				}
+				
+				p {
+					color: orange;
+				}
+				
+				.class1 {
+					color: purple;
+				}
+				
+				div#div1 p.class1 {
+					color: teal;
+				}
+				
+				div#div1 p {
+					color: black;
+				}
+				
+			</style>
+		</head>
+		<body>
+			texte de body 
+			
+			<div>
+				texte de div
+			</div>
+			
+			<p>
+				texte de p
+			</p>
+			
+			<p class="class1">
+				texte de p
+			</p>
+			
+			<div>
+				<p>
+					texte de p dans div
+				</p>
+				<p class="class1">
+					texte de p dans div .class1
+				</p>
+				<p class="class2">
+					texte de p dans div .class2
+				</p>
+				
+			</div>
+			
+			<div id="div1">
+				<p>
+					texte de p dans #div1
+				</p>
+				<p class="class1">
+					texte de p dans #div1 .class1
+				</p>
+				<p class="class2">
+					texte de p dans #div1 .class2
+					<br />
+					<span>texte de span dans #div1 .class2</span>
+					<br />
+					<span class="class3">texte de span .class3 dans #div1 .class2</span>
+				</p>
+				
+			</div>
+		
+		</body>
+	</html>
